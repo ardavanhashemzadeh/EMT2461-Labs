@@ -7,6 +7,7 @@
 void setup() {
   // put your setup code here, to run once:
   }
+// Kevin, the numbers below are guesses based on my poor memory, please use the values which we noted in lab.
 int iPWMslow=50;
 int iPWMmed=100;
 int iPWMfast=220;
