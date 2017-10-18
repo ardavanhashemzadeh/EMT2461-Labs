@@ -1,0 +1,21 @@
+// Ardavan Hashemzadeh
+// October 8 2017
+// Control DC Brushed Motor
+// Using a PWM signal as input
+// To the input of a transistor based
+// Motor driver
+void setup() {
+  // put your setup code here, to run once:
+  }
+int iPWMslow=50;
+int iPWMmed=100;
+int iPWMfast=220;
+void loop() {
+  // put your main code here, to run repeatedly:
+  analogWrite(3,iPWMslow);
+  delay(10000);
+  analogWrite(3,iPWMmed);
+  delay(10000);
+  analogWrite(3,iPWMfast);
+  delay(10000);
+}
