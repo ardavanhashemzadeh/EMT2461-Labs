@@ -2,8 +2,8 @@
 // October 8 2017
 // Control DC Brushed Motor
 // Using a PWM signal as input
-// To the input of a transistor based
-// Motor driver
+// To a transistor based motor driver
+
 void setup() {
   // put your setup code here, to run once:
   }
